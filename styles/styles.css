@@ -210,12 +210,27 @@ main .section.highlight {
   background-color: var(--light-color);
 }
 
+
+/* -------------------------------------------------------------------------------- */
 /* added by tekaneko for HOL */
 .teaser-hero {
   position: relative;
   background: linear-gradient(103deg, rgb(30, 141, 222) 0%, rgb(20, 88, 145) 100%);
   color: white;
   /* height: 560px; */
+}
+.teaser-hero .columns-wrapper {
+  padding: 0px 40px;
+}
+.teaser-hero .button-container > .button {
+  background-color: unset;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 20px;
+  min-height: 21px;
+  padding: 7px 18px 8px;
+  border-color: white;
 }
 
 .center {
@@ -227,4 +242,16 @@ main .section.highlight {
 
 .tabs-list {
   justify-content: center;
+}
+
+.benefit .tabs-panel {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px!important;
+}
+
+.benefit .tabs-panel > div {
+  flex:1;
+  min-width: 300px
 }
