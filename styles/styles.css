@@ -208,3 +208,28 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+/* added by tekaneko for HOL */
+.teaser-hero {
+  position: relative;
+  background: linear-gradient(103deg, rgb(30, 141, 222) 0%, rgb(20, 88, 145) 100%);
+  color: white;
+  height: 560px;
+}
+.teaser-hero .columns-img-col picture {
+    position: absolute;
+    min-height: 560px;
+    top: 0px;
+    width: 50vw;
+}
+.teaser-hero .columns-img-col picture img {
+  object-fit: cover;
+  height: 560px;
+}
+.teaser-hero .button-container .button {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 8px 36px;
+  color: white;
+  text-decoration: none;
+}
