@@ -192,13 +192,14 @@ main .section {
 
 @media (width >= 600px) {
   main .section {
-    padding: 64px 32px;
+    /* padding: 64px 32px; */
+    padding: 64px 0px;
   }
 }
 
 @media (width >= 900px) {
   .section > div {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto;
   }
 }
@@ -215,4 +216,15 @@ main .section.highlight {
   background: linear-gradient(103deg, rgb(30, 141, 222) 0%, rgb(20, 88, 145) 100%);
   color: white;
   /* height: 560px; */
+}
+
+.center {
+  text-align: center;
+}
+.bg-gray {
+  background: #f8f8f8;
+}
+
+.tabs-list {
+  justify-content: center;
 }
