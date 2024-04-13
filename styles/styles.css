@@ -219,9 +219,14 @@ main .section.highlight {
   color: white;
   /* height: 560px; */
 }
-.teaser-hero .columns-wrapper {
-  padding: 0px 40px;
+.teaser-hero > div > div {
+  padding-left:40px;
 }
+.teaser-hero picture img {
+  height: 560px!important;
+  object-fit: cover;
+}
+
 .teaser-hero .button-container > .button {
   background-color: unset;
   border-radius: 20px;
@@ -254,4 +259,8 @@ main .section.highlight {
 .benefit .tabs-panel > div {
   flex:1;
   min-width: 300px
+}
+
+.default-content-wrapper{
+ padding:
 }
