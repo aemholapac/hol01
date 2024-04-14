@@ -227,6 +227,9 @@ main .section.highlight {
   padding-left:40px;
 }
 @media (width < 600px) {
+  .teaser-hero > div > div:not(.columns-img-col) {
+    padding: 0px 20px;
+  }  
   .teaser-hero > div > .columns-img-col {
     padding-left: 0px;
   }  
