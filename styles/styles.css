@@ -226,6 +226,11 @@ main .section.highlight {
 .teaser-hero > div > div {
   padding-left:40px;
 }
+@media (width < 600px) {
+  .teaser-hero > div > .columns-img-col {
+    padding-left: 0px;
+  }  
+}
 .teaser-hero picture img {
   height: 560px!important;
   object-fit: cover;
