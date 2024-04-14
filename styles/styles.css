@@ -213,6 +213,10 @@ main .section.highlight {
 
 /* -------------------------------------------------------------------------------- */
 /* added by tekaneko for HOL */
+.section:has(.teaser-hero) {
+  padding: 0px;
+}
+
 .teaser-hero {
   position: relative;
   background: linear-gradient(103deg, rgb(30, 141, 222) 0%, rgb(20, 88, 145) 100%);
