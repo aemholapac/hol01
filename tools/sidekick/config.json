@@ -32,6 +32,20 @@
         "url": "https://firefly.adobe.com/",
         "passConfig": true,
         "includePaths": ["**.docx**"]
-      }
+    },
+    {
+        "project": "Example",
+        "plugins": [
+          {
+            "id": "library",
+            "title": "Library",
+            "environments": ["edit"],
+            "url": "/tools/sidekick/library.html",
+            "excludePaths": ["**"],
+            "includePaths": ["**.docx**", "/document/**"]
+          }
+        ]
+    }
+    
   ]
 }
