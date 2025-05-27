@@ -17,7 +17,7 @@
         "id": "library",
         "title": "Block Library",
         "environments": ["edit"],
-        "url": "https://main--hol01--aemholapac.hlx.page/tools/sidekick/library.html",
+        "url": "https://main--hol01--aemholapac.hlx.live/tools/sidekick/library.html",
         "includePaths": ["**.docx**"]
     },    
     {
