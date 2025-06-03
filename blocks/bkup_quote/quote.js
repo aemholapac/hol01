@@ -12,4 +12,3 @@ export default function decorate(block) {
       authorDiv.parentElement.replaceWith(p);
     }
   }
-  
